@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 71148207}
   - component: {fileID: 71148206}
   - component: {fileID: 71148205}
+  - component: {fileID: 71148211}
+  - component: {fileID: 71148210}
   - component: {fileID: 71148209}
   m_Layer: 0
   m_Name: Cube (1)
@@ -238,12 +240,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 71148204}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c491706628bcd642a52b367fd806be2, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e27607e3444af441a6ac1fe6f3c20eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _growSpeed: 1
-  _rotationSpeed: 60
-  _moveSpeed: 5
+--- !u!114 &71148210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71148204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41b3a40f24effa48b38fcd32d37d2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveSpeed: 2
+--- !u!114 &71148211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71148204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710bd1438f1fafc43bce8da4766641f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationSpeed: 50
 --- !u!1 &390927571
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,13 +689,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27711722, y: 0.29690182, z: -0.09048276, w: -0.90932304}
-  m_LocalPosition: {x: 7.770035, y: 8.863038, z: -9.018354}
+  m_LocalRotation: {x: 0.35390645, y: 0.3149159, z: -0.12790531, w: 0.87133145}
+  m_LocalPosition: {x: -8.258936, y: 11.885056, z: -8.429243}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 21.6, y: 0, z: 0}
 --- !u!1 &1751416530
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,9 +819,9 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 1751416534}
   - {fileID: 71148208}
   - {fileID: 475897905}
   - {fileID: 390927575}
+  - {fileID: 963194228}

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Cube1 : MonoBehaviour
+public class Rotator : MonoBehaviour
 {
     [SerializeField] private float _rotationSpeed;
 
@@ -9,7 +9,7 @@ public class Cube1 : MonoBehaviour
         Rotate();
     }
 
-    private void Rotate()
+    public void Rotate()
     {
         transform.Rotate(Vector3.up * _rotationSpeed * Time.deltaTime);
     }
